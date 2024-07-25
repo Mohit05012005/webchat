@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    margin-top: 70px;
+    
+}
+
+.first-div #heading{
+   font-size: 50px;
+   padding: 20px;
+   margin-bottom: 2rem;
+   background-color: black;
+   color: white;
+
+}
+.inner-div label{
+    font-size: 2rem;
+
+}
+.inner-div input{
+    font-size: 2rem;
+}
+.app{
+    display: none;
+    padding: 10px;
+   
+}
+
+ 
+/* .first-div{
+    display: none;
+} */
+
+#btn{
+    background-color: rgb(65, 65, 162);
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    width: 100%;
+}
+.mainapp{
+    width: 100%;
+    overflow-y:scroll;
+    height: 45vh;
+
+
+}
+.message-by-me{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.messageme{
+    background-color: rgb(136, 216, 241);
+    border-radius: 15px;
+    
+    display: inline-flex;
+    padding:12px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.message-by-me #id-you{
+    color: rgb(98, 96, 96);
+    
+
+}
+.message-you,.message-other{
+    font-size: 2rem;
+}
+
+.message-by-other{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.messageother{
+    background-color: rgb(109, 107, 107);
+    border-radius: 15px;
+    
+    display: inline-block;
+    padding:12px;
+    margin: 20px;
+}
+#input-text{
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 40px;
+    font-size: 2rem;
+}
+
+#send-message{
+    width: 200px;
+    height: 120px;
+    background-color: greenyellow;
+    font-size: 2rem;
+    padding: 12px;
+    border-radius: 12px;
+}
+.message-box{
+    margin-top: 100px;
+}
+#send-message:hover{
+    background-color: aquamarine;
+}
+
+.heading-exit{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+    margin-bottom: 10px;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 0;
+}
+
+#exit-btn{
+    width: 100px;
+    height: 55px;
+    font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 7px;
+    border-radius: 15px;
+}
+#exit-btn:hover{
+    background-color: brown;
+}
+
+#user-join-message{
+    text-align: center;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+#send-message{
+    width: 100px;
+    height: 63px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px){
+  .first-div #heading{
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 600px){
+    .inner-div{
+        padding-left: 95px;
+    }
+  }
+  @media screen and (max-width: 600px){
+     body{
+        padding: 110px;
+     }
+  }
+  @media screen and (max-width: 600px) {
+    .inner-div{
+        padding-right: 70px;
+    }
+  }
+/* @media screen and (max-width: 640px) {
+    #titlee{
+        font-size: 100%;
+    }
+} */
+@media screen and (max-width: 640px) {
+  .message-box .main-box{
+       flex-direction: column;
+       gap: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #input-text{
+       font-size: 20px;
+       padding-left: 7px;
+  }
+  }
+  @media screen and (max-width: 640px) {
+   #send-message{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+   }
+  }
+
+ 

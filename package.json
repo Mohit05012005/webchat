@@ -1,0 +1,16 @@
+{
+  "name": "real_time_chat_app",
+  "version": "1.0.0",
+  "description": "real time chat application using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohit bohra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}
